@@ -1,0 +1,91 @@
+:root {
+    --color-compose-button: 245 194 231;
+    --color-sidebar-accent: 245 194 231;
+}
+
+
+.fill-composeButton.text-text {
+    color: black;
+}
+
+.bg-foreground {
+    background: #181825;
+}
+
+.bg-background {
+    background: #1e1e2e;
+}
+
+.bg-sidebarBg {
+    background: #11111b;
+}
+
+.bg-foreground-800 {
+    background: #11111b;
+}
+
+.bg-white, .bg-notWhite {
+    background: #11111b;
+}
+
+.lg\:text-notBlack {
+    color: white !important;
+}
+
+.text-notBlack, .text-black, .prose {
+    color: white !important;
+}
+
+.text-gray-600, .text-gray-500 {
+    color: #d0d0d0 !important;
+}
+
+.border-gray-300 {
+    border-color: #3c3c3c !important;
+}
+
+:where([data-headlessui-state~="open"]) .ui-open\:bg-cherry-700 {
+    background: #f5c2e7;
+    color: black;
+}
+
+:where([data-headlessui-state~="open"]) .ui-open\:bg-cherry-700 > svg {
+    color: black;
+}
+
+
+.group:hover .group-hover\:bg-cherry-600 {
+    background: #f5c2e7;
+    color: black;
+}
+
+.group:hover .group-hover\:bg-cherry-600 > svg {
+    color: black;
+}
+
+.bg-cherry {
+    background: #f5c2e7;
+}
+
+.bg-cherry-600, .bg-cherry-700 {
+    background: #f5c2e7;
+}
+
+.border-mango {
+    border-color: #f5c2e7;
+}
+
+.text-mango {
+    color: #f5c2e7;
+}
+
+.text-notWhite.bg-cherry {
+    color: black !important;
+    border: 0;
+}
+
+.bg-longan-300 {
+    background: #f5c2e7;
+    color: black !important;
+}
+
